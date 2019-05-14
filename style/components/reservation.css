@@ -1,0 +1,60 @@
+#reservation {
+	width: 100%;
+	background-image: url('../../images/52.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+
+#reservation .wrapper {
+	flex-direction: column;
+
+}
+#reserve {
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#reserve input, #message {
+	width: 100%;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	font-family: 'Forum-Regular';
+	font-size: 18px;
+	font-style: italic;
+	box-shadow: 2px 2px 4px #000;
+}
+
+#message {
+	resize: none;
+}
+#reserve #book_button {
+	width: 200px;
+	background-color: crimson;
+	color: #fff;
+	box-shadow: 2px
+}
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+	#reserve {
+		width: 55%;
+	}
+}
+
+@media (max-width: 768px) {
+	#reserve {
+		width: 65%;
+	}
+}
+
+@media (max-width: 425px) {
+	#reserve {
+		width: 95%;
+	}
+}

@@ -1,0 +1,39 @@
+#contacts {
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+}
+#contacts .wrapper {
+	font-family: 'Forum-Regular';
+}
+#contacts a {
+	font-family: 'Forum-Regular';
+	font-size: 20px;
+	color: #fff;
+}
+.social i {
+	font-size: 25px;
+	margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+	#contacts .wrapper {
+		flex-wrap: wrap;
+	}
+	.copyright, .address, .social, #contacts a {
+		width: 50%;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.social {
+		order: 0;
+	}
+	#contacts a {
+		order: 1;
+	}
+}
+
+@media (max-width: 480px) {
+	
+}

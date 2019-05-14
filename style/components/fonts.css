@@ -1,0 +1,179 @@
+/*@import url('http://allfont.ru/allfont.css?fonts=bikham-cyr-script');
+@import url('http://allfont.ru/allfont.css?fonts=andantino-script');
+@import url('http://allfont.ru/allfont.css?fonts=carolina');
+@import url('http://allfont.ru/allfont.css?fonts=annabelle');
+@import url('http://allfont.ru/allfont.css?fonts=popularscript');
+@import url('http://allfont.ru/allfont.css?fonts=capture-it-2');
+ @import url('http://allfont.ru/allfont.css?fonts=president-cyr');
+@import url('http://allfont.ru/allfont.css?fonts=bonzai-regular');
+*/
+
+
+/*
+font-family: 'Bikham Cyr Script';
+font-family: 'Andantino script';
+font-family: 'Carolina';
+font-family: 'Annabelle';
+font-family: 'PopularScript';
+font-family: 'Capture it 2';
+font-family: 'President Cyr';
+font-family: 'Bonzai Regular';
+font-family: 'MadeEvolveSansEvoThin';
+font-family: 'Alexander';
+font-family: 'YesevaOne-Regular';
+font-family: 'Scada-Regular';
+font-family: 'Resagokr';
+font-family: 'Raleway-Regular';
+font-family: 'PoiretOne-Regular';
+font-family: 'PlayfairDisplay-Regular';
+font-family: 'Philosopher-Regular';
+font-family: 'Gputeks-Regular';
+font-family: 'Forum-Regular';
+font-family: 'ElMessiri-Regular';
+font-family: 'Beatrix-Antiqua-trial';
+font-family: 'AngleciaProDisplayRegular';
+font-family: 'RopaMixPro-Italic';
+font-family: 'Mixa-Light';
+font-family: 'Mixa-ExtraBold';
+font-family: 'Caviar Dreams';
+*/
+
+@font-face {
+	font-family: 'Andantino script';
+	src: url('../../fonts/andantino-script_[allfont.ru].ttf');
+}
+
+@font-face {
+	font-family: 'Annabelle';
+	src: url('../../fonts/annabelle_[allfont.ru].ttf');
+}
+
+@font-face {
+	font-family: 'Bikham Cyr Script';
+	src: url('../../fonts/bikham-cyr-script_[allfont.ru].ttf');
+}
+
+@font-face {
+	font-family: 'Bonzai Regular';
+	src: url('../../fonts/bonzai-regular_[allfont.ru].ttf');
+}
+
+@font-face {
+	font-family: 'Capture it 2';
+	src: url('../../fonts/capture-it-2_[allfont.ru].ttf');
+}
+
+@font-face {
+	font-family: 'Carolina';
+	src: url('../../fonts/carolina_[allfont.ru].ttf');
+}
+
+@font-face {
+	font-family: 'MadeEvolveSansEvoThin';
+	src: url('../../fonts/made-evolve-sans-evo-thin.otf');
+}
+
+@font-face {
+	font-family: 'PopularScript';
+	src: url('../../fonts/popularscript_[allfont.ru].ttf');
+}
+
+@font-face {
+	font-family: 'President Cyr';
+	src: url('../../fonts/president-cyr_[allfont.ru].ttf');
+}
+
+@font-face {
+	font-family: 'Alexander';
+	src: url('../../fonts/alexander.ttf');
+}
+
+@font-face {
+	font-family: 'Caviar Dreams';
+	src: url('../../fonts/Caviar Dreams.ttf');
+}
+
+@font-face {
+	font-family: 'Mixa-ExtraBold';
+	src: url('../../fonts/Mixa-ExtraBold.ttf');
+}
+
+@font-face {
+	font-family: 'Mixa-Light';
+	src: url('../../fonts/Mixa-Light.ttf');
+}
+
+@font-face {
+	font-family: 'RopaMixPro-Italic';
+	src: url('../../fonts/RopaMixPro-Italic.ttf');
+}
+
+@font-face {
+	font-family: 'AngleciaProDisplayRegular';
+	src: url('../../fonts/Angleciaprodisplayregular.ttf');
+}
+
+@font-face {
+	font-family: 'Beatrix-Antiqua-trial';
+	src: url('../../fonts/Beatrix-Antiqua-trial.ttf');
+}
+
+@font-face {
+	font-family: 'ElMessiri-Regular';
+	src: url('../../fonts/ElMessiri-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Forum-Regular';
+	src: url('../../fonts/Forum-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Gputeks-Regular';
+	src: url('../../fonts/Gputeks-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Philosopher-Regular';
+	src: url('../../fonts/Philosopher-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-Regular';
+	src: url('../../fonts/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'PoiretOne-Regular';
+	src: url('../../fonts/PoiretOne-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Raleway-Regular';
+	src: url('../../fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Resagokr';
+	src: url('../../fonts/Resagokr.otf');
+}
+
+@font-face {
+	font-family: 'Scada-Regular';
+	src: url('../../fonts/Scada-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'YesevaOne-Regular';
+	src: url('../../fonts/YesevaOne-Regular.ttf');
+}
+
+@font-face {
+	font-family: '';
+	src: url('../../fonts/.ttf');
+}
+
+@font-face {
+	font-family: '';
+	src: url('../../fonts/.ttf');
+}

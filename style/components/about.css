@@ -1,0 +1,127 @@
+@import url('http://allfont.ru/allfont.css?fonts=bikham-cyr-script');
+@import url('http://allfont.ru/allfont.css?fonts=andantino-script');
+@import url('http://allfont.ru/allfont.css?fonts=carolina');
+@import url('http://allfont.ru/allfont.css?fonts=annabelle');
+@import url('http://allfont.ru/allfont.css?fonts=popularscript');
+@import url('http://allfont.ru/allfont.css?fonts=capture-it-2');
+ @import url('http://allfont.ru/allfont.css?fonts=president-cyr');
+@import url('http://allfont.ru/allfont.css?fonts=bonzai-regular');
+
+.about {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.about .wrapper {
+	background-image: url(../../images/bg3.jpg);
+	background-size: cover;
+}
+.caption {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 20px;
+}
+.about .title {
+	font-family: 'Forum-Regular';
+	font-size: 30px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+.info {
+	width: 50%;
+	text-align: center;
+	padding: 25px;
+}
+.about .subtitle {
+	font-family: 'Alexander';
+	font-family: 'Forum-Regular';
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 28px;
+}
+.about .text {
+	width: 100%;
+	color: #000;
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: 'Alexander';
+	font-family: 'Forum-Regular';
+	font-size: 25px;
+}
+.about img {
+	width: 25%;
+	height: 100%;
+	object-fit: contain;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+	.about .subtitle {
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	.about .text {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 820px) {
+	.about .subtitle {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.about .text {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 768px) {
+	.about .wrapper {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.about img {
+		width: 40%;
+		/*height: 200px;*/
+	}
+	.about .text {
+		margin-bottom: 0;
+	}
+	.about .hidden {
+		display: none;
+	}
+	#cuisine {
+		order: 1;
+	}
+	.bottom_wrapper {
+		background-position: right top;
+	}
+	.info {
+		width: 60%;
+	}
+}
+
+@media (max-width: 500px) {
+	.about .wrapper {
+		background-position: right top;
+	}
+	.info {
+		width: 100%;
+		order: 2;
+	}
+	.about img {
+		width: 50%;
+	}
+	.about .hidden {
+		display: flex;
+	}
+
+}
