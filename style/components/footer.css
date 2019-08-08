@@ -16,7 +16,6 @@
 	font-size: 25px;
 	margin-right: 5px;
 }
-
 @media (max-width: 768px) {
 	#contacts .wrapper {
 		flex-wrap: wrap;
@@ -32,8 +31,4 @@
 	#contacts a {
 		order: 1;
 	}
-}
-
-@media (max-width: 480px) {
-	
 }
