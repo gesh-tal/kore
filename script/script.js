@@ -4,7 +4,6 @@ $(document).ready(function(){
 		  $('#before-load').find('i').fadeOut().end().delay(400).fadeOut('slow');
 		});
 
-
 	$('.hamburger').on('click', () => {
 		$('#mobile_menu').fadeIn(400);
 		$('#mobile_menu').css('display', 'flex');
@@ -21,7 +20,7 @@ $(document).ready(function(){
 	});
 
 	$(() => {
-		$('a[href^=".header_info"]').on('click', function(event) {
+		$('a[href^="#"]').on('click', function(event) {
 		event.preventDefault();
 
 		const ref = $(this).attr("href"),
@@ -35,8 +34,6 @@ $(document).ready(function(){
 	  itemSelector: '.grid_item',
 	  layoutMode: 'fitRows'
 	});
-
-
 
 	var owl = $("#owl_carousel");
 	owl.owlCarousel({
@@ -52,16 +49,6 @@ $(document).ready(function(){
 	$(".prev").click(function(){
 		   owl.trigger('owl.prev');
 	});
-
-
 });
 
 	$('#light').lightGallery();
-
-	
-
-
-
-
-
-	
