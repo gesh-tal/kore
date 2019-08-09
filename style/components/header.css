@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Kaushan+Script');
-
+@font-face{
+	font-family: "Caviar Dreams";
+    src: url(../../fonts/Caviar Dreams.ttf);
+}
+@font-face{
+	font-family: "Forum-Regular";
+    src: url(../../fonts/Forum-Regular.ttf);
+}
 a {
 	font-family: 'Forum-Regular';
 	text-decoration: none;
