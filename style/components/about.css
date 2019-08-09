@@ -1,12 +1,3 @@
-@import url('http://allfont.ru/allfont.css?fonts=bikham-cyr-script');
-@import url('http://allfont.ru/allfont.css?fonts=andantino-script');
-@import url('http://allfont.ru/allfont.css?fonts=carolina');
-@import url('http://allfont.ru/allfont.css?fonts=annabelle');
-@import url('http://allfont.ru/allfont.css?fonts=popularscript');
-@import url('http://allfont.ru/allfont.css?fonts=capture-it-2');
- @import url('http://allfont.ru/allfont.css?fonts=president-cyr');
-@import url('http://allfont.ru/allfont.css?fonts=bonzai-regular');
-
 .about {
 	width: 100%;
 	height: 100%;
@@ -59,9 +50,6 @@
 	object-fit: contain;
 }
 
-@media (max-width: 1200px) {
-
-}
 
 @media (max-width: 1024px) {
 	.about .subtitle {
@@ -90,7 +78,6 @@
 	}
 	.about img {
 		width: 40%;
-		/*height: 200px;*/
 	}
 	.about .text {
 		margin-bottom: 0;
@@ -123,5 +110,4 @@
 	.about .hidden {
 		display: flex;
 	}
-
 }

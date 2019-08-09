@@ -10,7 +10,6 @@
 	background-size: cover;
 	background-position: center;
 	display: flex;
-	/*flex-direction: column;*/
 	justify-content: center;
 	align-items: center;
 	position: relative;
@@ -25,7 +24,6 @@
 .menu .text {
 	font-family: 'Forum-Regular'; 
 	position: absolute;
-	/*bottom: 20%;*/
 	text-shadow: 2px 2px 4px #000;
 }
 
@@ -71,9 +69,6 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.menu_img img{
-	/*width: 50%;*/
-}
 .menu_desc {
 	width: 100%;
 	height: 85px;
@@ -95,13 +90,6 @@
 	font-size: 17px;
 	margin-bottom: 10px;
 }
-
-/*.menu_item:hover .menu_desc {
-	display: block;
-}*/
-
-
-
 
 /*MENU DETAIL PAGE*/
 .menu3 {
@@ -131,14 +119,6 @@
 }
 .breadcrumb_link:last-child:after {
 	content: none;
-}
-
-@media (max-width: 1200px) {
-
-}
-
-@media (max-width: 1024px) {
-
 }
 
 @media (max-width: 768px) {
