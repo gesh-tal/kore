@@ -16,6 +16,7 @@
 	font-size: 25px;
 	margin-right: 5px;
 }
+
 @media (max-width: 768px) {
 	#contacts .wrapper {
 		flex-wrap: wrap;
